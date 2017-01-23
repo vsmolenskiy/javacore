@@ -1,4 +1,4 @@
-package com.vsmolenskiy.app.Lesson2;
+package com.vsmolenskiy.app.classwork.lesson2;
 
 /**
  * Created by V.Smolenskyi on 20.01.2017.

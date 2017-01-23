@@ -1,4 +1,4 @@
-package com.vsmolenskiy.app;
+package com.vsmolenskiy.app.classwork.lesson2.old;
 
 /**
  * Hello world!

@@ -1,6 +1,6 @@
-package com.vsmolenskiy.app.untils.runners;
+package com.vsmolenskiy.runners.homework.lesson2;
 
-import com.vsmolenskiy.app.untils.convertors.PrimitiveConvertor;
+import com.vsmolenskiy.app.homework.lesson2.untils.convertors.PrimitiveConvertor;
 
 /**
  * Created by V.Smolenskyi on 23.01.2017.
