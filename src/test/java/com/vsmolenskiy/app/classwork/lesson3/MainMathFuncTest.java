@@ -8,7 +8,7 @@ import org.junit.Assert.*;
 /**
  * Created by student on 1/23/2017.
  */
-public class MathFuncTest {
+public class MainMathFuncTest {
     @Test
     public void multiply() {
         MathFunc mathFunc = new MathFunc();

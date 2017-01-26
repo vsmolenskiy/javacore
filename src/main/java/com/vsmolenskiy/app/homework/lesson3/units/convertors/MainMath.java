@@ -1,12 +1,8 @@
 package com.vsmolenskiy.app.homework.lesson3.units.convertors;
-
 /**
  * Created by V.Smolenskyi on 26.01.2017.
  */
-public class Math {
-    public int abc(int a){
-        return a;
-    }
+public class MainMath {
     public int cbrt (int a){
         return a;
     }
