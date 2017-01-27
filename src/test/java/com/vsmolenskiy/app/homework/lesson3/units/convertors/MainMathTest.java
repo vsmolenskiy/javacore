@@ -8,27 +8,27 @@ import static org.junit.Assert.*;
 /**
  * Created by V.Smolenskyi on 26.01.2017.
  */
-/*public class MainMathTest {
-    @Test
-    public void abc(){
-        MainMath math = new MainMath();
-        Assert.assertEquals(2,Math.abs(2));
-    }
+public class MainMathTest {
+     @Test
+     public void abs(){
+         MainMath math = new MainMath();
+         Assert.assertEquals(2,Math.abs(2));
+     }
     @Test
     public void cbrt(){
         MainMath math = new MainMath();
-        Assert.assertEquals(3,math.cbrt(27));
+        Assert.assertEquals(3,math.cbrt(27),0.00001);
     }
     @Test
     public void seil(){
         MainMath math = new MainMath();
-        Assert.assertEquals(6,math.ceil(5));
+        Assert.assertEquals(6,math.ceil(5.5),0.001);
 
     }
     @Test
     public void copySign(){
         MainMath math = new MainMath();
-        Assert.assertEquals(27,math.copySign(27,1));
+        Assert.assertEquals(27,math.copySign(27,1),0.000001);
 
     }
     @Test
@@ -49,12 +49,12 @@ import static org.junit.Assert.*;
     @Test
     public void max() {
         MainMath math = new MainMath();
-        Assert.assertEquals(8, math.max(6,8));
+        Assert.assertEquals(8, math.max(6,8),0.000001);
     }
     @Test
     public void min() {
         MainMath math = new MainMath();
-        Assert.assertEquals(2, math.min(34,2));
+        Assert.assertEquals(2, math.min(34,2),0.000001);
     }
     @Test
     public void negateExact(){
@@ -70,12 +70,12 @@ import static org.junit.Assert.*;
     @Test
     public void division() {
         MainMath math = new MainMath();
-        Assert.assertEquals(2, math.division(4,2));
+        Assert.assertEquals(2, math.division(4,2),0.000001);
     }
     @Test
     public void division1() {
         MainMath math = new MainMath();
-        Assert.assertEquals(0.5, math.division(4,8, 0.0001 );
+        Assert.assertEquals(0.5, math.division(4,8),0.000001);
     }
     @Test
     public void sum() {
@@ -101,17 +101,17 @@ import static org.junit.Assert.*;
     @Test
     public void max1() {
         MainMath math = new MainMath();
-        Assert.assertEquals(5, math.max(5,3));
+        Assert.assertEquals(5, math.max(5,3),0.000001);
     }
     @Test
     public void min1() {
         MainMath math = new MainMath();
-        Assert.assertEquals(2, math.min(-34,2));
+        Assert.assertEquals(-34, math.min(-34,2),0.000001);
     }
 
      @Test
-     public void abc1(){
+     public void abs1(){
         MainMath math = new MainMath();
-        Assert.assertEquals(-2,math.abc(-2));
-    }*/
-//}
+        Assert.assertEquals(2,math.abs(-2));
+    }
+}
