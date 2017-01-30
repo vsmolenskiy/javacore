@@ -8,6 +8,7 @@ import com.vsmolenskiy.app.classwork.lesson4.RightAngled;
  */
 public class RunnerRightAngled {
     public static void main(String[] args) {
+
         RightAngled.checkTruth();
     }
 }
