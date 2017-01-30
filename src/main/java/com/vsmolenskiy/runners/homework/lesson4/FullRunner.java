@@ -15,7 +15,8 @@ public class FullRunner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int indicator = 0;
-        while (indicator < 100000000) {
+        while (indicator < 10000000) {
+            System.out.println();
             System.out.println("Type 1 if you want start program Circle Area");
             System.out.println("Type 2 if you want start program Even Odd");
             System.out.println("Type 3 if you want start program RightAngled");
