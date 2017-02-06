@@ -17,10 +17,10 @@ public class FullRunner {
         int indicator = 0;
         while (indicator < 10000000) {
             System.out.println();
-            System.out.println("Type 1 if you want start program Circle Area");
-            System.out.println("Type 2 if you want start program Even Odd");
-            System.out.println("Type 3 if you want start program RightAngled");
-            System.out.println("Type 4 if you want exit");
+            System.out.println("Type 1 if you want start program Circle Area\n" +
+                                "Type 2 if you want start program Even Odd\n" +
+                                "Type 3 if you want start program RightAngled\n" +
+                                "Type 4 if you want exit");
             int programNumber = scanner.nextInt();
 
             if (programNumber == 1) {

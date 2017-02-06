@@ -8,6 +8,8 @@ import com.vsmolenskiy.app.classwork.lesson2.NarrowingCasting;
 public class Runner {
     public  static void main(String args[]){
         NarrowingCasting casting = new NarrowingCasting();
-        casting.narrowing();
+        float float1 = 1.0f;
+        double double1 =0.1d;
+        System.out.println(casting.narrowing(float1,double1));
     }
 }

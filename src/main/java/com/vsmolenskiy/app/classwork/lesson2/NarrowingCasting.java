@@ -4,10 +4,10 @@ package com.vsmolenskiy.app.classwork.lesson2;
  * Created by V.Smolenskyi on 20.01.2017.
  */
 public class NarrowingCasting {
-    double double1 = 3.14159d;
-    float float1 = 0.0f;
-    public void narrowing(){
+   // double double1;
+   // float float1;
+    public float narrowing(float float1,double double1){
         float1 = (float) double1;
-        System.out.println(float1);
+        return float1;
     }
 }
