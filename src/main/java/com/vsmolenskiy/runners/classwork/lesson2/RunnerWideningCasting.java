@@ -9,7 +9,7 @@ public class RunnerWideningCasting {
     public static void main(String[] args) {
         WideningCasting casting = new WideningCasting();
         byte byte1 = 127;
-        short short1 = 0;
+        short short1 = 0b0;
         int int1 = 0;
         long long1 = 0L;
         float float1 = 0.0f;
