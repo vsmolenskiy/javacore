@@ -15,7 +15,7 @@ public class FullRunner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int indicator = 0;
-        while (indicator < 10000000) {
+        while (indicator < 1000) {
             System.out.println();
             System.out.println("Type 1 if you want start program Circle Area\n" +
                                 "Type 2 if you want start program Even Odd\n" +
@@ -35,7 +35,7 @@ public class FullRunner {
             } else if (programNumber == 4){
                 System.out.println();
                 System.out.println("Bye");
-                indicator = 101;
+                indicator = 1001;
             }
             else {
                 System.out.println("Try again");
