@@ -13,5 +13,4 @@ public class CircleAreaTest {
         CircleArea circleArea = new CircleArea();
         assertEquals(System.out.print("Area1 is bigger..."),circleArea.calculateBigger);
     }*/
-
 }

@@ -9,5 +9,4 @@ public class RunnerWhile {
     int a;
     int b;
     Scanner scanner = new Scanner(System.in);
-    
 }
