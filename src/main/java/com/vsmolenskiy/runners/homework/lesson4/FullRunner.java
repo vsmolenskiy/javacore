@@ -15,7 +15,7 @@ public class FullRunner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int indicator = 0;
-        while (indicator < 1000) {
+        while (indicator < 100) {
             System.out.println();
             System.out.println("Type 1 if you want start program Circle Area\n" +
                                 "Type 2 if you want start program Even Odd\n" +
@@ -23,23 +23,26 @@ public class FullRunner {
                                 "Type 4 if you want exit");
             int programNumber = scanner.nextInt();
 
-            if (programNumber == 1) {
-                System.out.println();
-                RunnerCircleArea.main(args);
-            } else if (programNumber == 2) {
-                System.out.println();
-                RunnerEvenOdd.main(args);
-            } else if (programNumber == 3) {
-                System.out.println();
-                RunnerRightAngled.main(args);
-            } else if (programNumber == 4){
-                System.out.println();
-                System.out.println("Bye");
-                indicator = 1001;
+            switch (programNumber) {
+                case 1:
+                    System.out.println();
+                    RunnerCircleArea.main(args);
+                    break;
+                case 2:
+                    System.out.println();
+                    RunnerEvenOdd.main(args);
+                    break;
+                case 3:
+                    System.out.println();
+                    RunnerRightAngled.main(args);
+                    break;
+                case 4:
+                    System.out.println();
+                    System.out.println("Bye");
+                    indicator = 101;
+                    break;
+                default:
+                    System.out.println("Try again");
+                    indicator++;
             }
-            else {
-                System.out.println("Try again");
-            }
-         indicator++;}
-    }
-}
+    }}}
