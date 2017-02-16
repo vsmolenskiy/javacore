@@ -5,10 +5,11 @@ package com.vsmolenskiy.app.classwork.lesson9;
  */
 public class ArrayToString {
     String stringToDisplay ="";
-   public String string(char[] array){
+    StringBuilder stringBuilder = new StringBuilder();
+    public String string(char[] array){
         for (int i =0;i < array.length;i++)
        {
-           stringToDisplay += array[i];
+         stringBuilder.
        }
        return stringToDisplay; }
 }
