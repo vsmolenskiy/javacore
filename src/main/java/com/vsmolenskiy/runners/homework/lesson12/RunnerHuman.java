@@ -13,9 +13,18 @@ public class RunnerHuman {
         System.out.println("Введите имя");
         String newname = scanner.nextLine();
         System.out.println("Введите возраст");
-        String newage = scanner.nextLine();
-        int newage2 = Integer.valueOf(newage);
-        Human human = new Human(newname,newage2);
-        human.setAge(newage2);
+        int newage = scanner.nextInt();
+        Human human = new Human(newname,newage);
+        if(newage < 1 || newage > 120){
+            System.out.println("Age invalid");
+        }
+        else {
+            System.out.println("New age setted = " + human.getAge());
+        }
+       // int newage2 = Integer.valueOf(newage);
+
+
+
+
     }
 }
