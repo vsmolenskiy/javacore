@@ -1,4 +1,4 @@
-package com.vsmolenskiy.runners.homework.lesson8;
+package com.vsmolenskiy.runners.classwork.lesson8;
 
 import java.util.Scanner;
 
