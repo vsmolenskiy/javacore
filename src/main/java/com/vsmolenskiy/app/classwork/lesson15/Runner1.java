@@ -1,4 +1,4 @@
-package company.lesson15;
+package com.vsmolenskiy.app.classwork.lesson15;
 
 import java.util.Scanner;
 

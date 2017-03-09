@@ -1,5 +1,7 @@
 package com.vsmolenskiy.runners.homework.lesson4;
 
+import com.vsmolenskiy.app.classwork.lesson16.Number;
+import com.vsmolenskiy.app.classwork.lesson16.Season;
 import com.vsmolenskiy.app.classwork.lesson4.CircleArea;
 import com.vsmolenskiy.app.classwork.lesson4.EvenOdd;
 import com.vsmolenskiy.app.classwork.lesson4.RightAngled;
@@ -15,28 +17,45 @@ public class FullRunner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int indicator = 0;
+        String go = "";
         while (indicator < 100) {
             System.out.println();
-            System.out.println("Type 1 if you want start program Circle Area\n" +
-                                "Type 2 if you want start program Even Odd\n" +
-                                "Type 3 if you want start program RightAngled\n" +
-                                "Type 4 if you want exit");
-            int programNumber = scanner.nextInt();
+            System.out.println("Type 'ONE' if you want start program Circle Area\n" +
+                                "Type 'TWO' if you want start program Even Odd\n" +
+                                "Type 'THREE' if you want start program RightAngled\n" +
+                                "Type 'EXIT' if you want exit");
+            String programNumber = scanner.nextLine();
+//            if (programNumber == 1) {
+//                go = "ONE";
+//            }
+//            else if (programNumber == 2){
+//                go = "TWO";
+//            }
+//            else if (programNumber == 3){
+//                go = "THREE";
+//            }
+//            else if (programNumber == 4){
+//                go = "EXIT";
+//            }
+//            else{
+//
+//            }
+            Number number = Number.valueOf(programNumber);
 
-            switch (programNumber) {
-                case 1:
+            switch (number) {
+                case ONE:
                     System.out.println();
                     RunnerCircleArea.main(args);
                     break;
-                case 2:
+                case TWO:
                     System.out.println();
                     RunnerEvenOdd.main(args);
                     break;
-                case 3:
+                case THREE:
                     System.out.println();
                     RunnerRightAngled.main(args);
                     break;
-                case 4:
+                case EXIT:
                     System.out.println();
                     System.out.println("Bye");
                     indicator = 101;

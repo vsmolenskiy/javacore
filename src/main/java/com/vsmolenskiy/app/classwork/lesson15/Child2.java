@@ -1,4 +1,4 @@
-package company.lesson15;
+package com.vsmolenskiy.app.classwork.lesson15;
 
 /**
  * Created by student3 on 3/6/2017.
