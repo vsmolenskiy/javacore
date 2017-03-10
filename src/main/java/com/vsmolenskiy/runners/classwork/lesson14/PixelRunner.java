@@ -1,6 +1,5 @@
-package com.vsmolenskiy.runners.classwork.Lesson14;
+package com.vsmolenskiy.runners.classwork.lesson14;
 
-import com.sun.prism.image.Coords;
 import com.vsmolenskiy.app.classwork.lesson14.Pixel;
 
 /**
