@@ -16,4 +16,4 @@ public enum Holidays {
         this.fulltext = fulltest;
 
     }
-    }
+}
